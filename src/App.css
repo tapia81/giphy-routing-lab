@@ -1,0 +1,57 @@
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
+	height: 10vh;
+}
+
+h1 {
+	color: white;
+}
+
+input {
+	margin-bottom: 20px;
+	min-width: 25vh;
+	min-height: 4vh;
+	font-size: 1rem;
+}
+
+button {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 15vh;
+	height: 7vh;
+	border-radius: 0.8rem;
+}
+
+img {
+	height: 45vh;
+	width: 30vw;
+}
+
+.link {
+	text-decoration: none;
+	color: rgb(30%, 20%, 43%);
+	font-size: 2rem;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+	width: 100vw;
+	min-height: 100vh;
+	background-image: url(./images/pexels-tove-liu-3967143.jpg);
+}
+
+.gif-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	padding-bottom: 5vh;
+}
